@@ -10,3 +10,25 @@
 - Easy command creation with [`Annotation Command Framework (ACF)`](https://github.com/aikar/commands/wiki) 
 - Commands with asynchronous tabcomplete
 - Creating stylish guide menus with [`Inventory Framework`](https://github.com/stefvanschie/IF/wiki/IF)
+
+## Setup
+
+Add Paper Plugin API to your project
+
+```xml
+<repositories>
+  <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>com.github.Brun0XP</groupId>
+    <artifactId>PaperPluginAPI</artifactId>
+    <version>v1.0.0</version>
+    <scope>provided</scope>
+  </dependency>
+</dependencies>
+```
