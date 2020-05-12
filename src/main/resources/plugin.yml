@@ -1,0 +1,6 @@
+name: PaperPluginAPI
+version: ${project.version}
+main: com.github.brun0xp.paperpluginapi.Main
+authors: [Brun0XP]
+description: An api for creating plugins for minecraft, contains frameworks like aikar acf and inventory flamework
+website: www.craftlife.com.br
