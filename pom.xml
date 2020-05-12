@@ -6,7 +6,7 @@
 
     <groupId>com.github.brun0xp</groupId>
     <artifactId>paperpluginapi</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>PaperPluginAPI</name>
