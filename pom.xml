@@ -20,7 +20,7 @@
     <url>www.craftlife.com.br</url>
 
     <build>
-        <defaultGoal>clean package</defaultGoal>
+        <defaultGoal>clean install</defaultGoal>
         <finalName>PaperPluginAPI</finalName>
         <plugins>
             <plugin>
