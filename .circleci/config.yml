@@ -1,0 +1,12 @@
+image: maven:3.5.2-jdk-8
+
+stages:
+  - build
+
+maven:build:
+  stage: build
+  script:
+    - mvn clean install
+  artifacts:
+    paths:
+      - target/
