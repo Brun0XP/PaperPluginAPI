@@ -1,12 +1,9 @@
-image: maven:3.5.2-jdk-8
+version: 2.1
 
-stages:
-  - build
+orbs:
+  maven: circleci/maven@0.0.12
 
-maven:build:
-  stage: build
-  script:
-    - mvn clean install
-  artifacts:
-    paths:
-      - target/
+workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
