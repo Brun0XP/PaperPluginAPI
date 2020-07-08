@@ -6,7 +6,7 @@
 
     <groupId>com.github.brun0xp</groupId>
     <artifactId>paperpluginapi</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <packaging>jar</packaging>
 
     <name>PaperPluginAPI</name>
@@ -51,6 +51,10 @@
                             <pattern>com.github.stefvanschie.inventoryframework</pattern>
                             <shadedPattern>com.github.brun0xp.paperpluginapi.inventoryframework</shadedPattern>
                         </relocation>
+                        <relocation>
+                            <pattern>de.themoep.minedown</pattern>
+                            <shadedPattern>com.github.brun0xp.paperpluginapi.libraries.minedown</shadedPattern>
+                        </relocation>
                     </relocations>
                 </configuration>
                 <executions>
@@ -87,6 +91,10 @@
             <id>aikar</id>
             <url>https://repo.aikar.co/content/groups/aikar/</url>
         </repository>
+        <repository>
+            <id>minebench-repo</id>
+            <url>http://repo.minebench.de/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -107,6 +115,12 @@
             <artifactId>IF</artifactId>
             <version>0.5.18</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>de.themoep</groupId>
+            <artifactId>minedown</artifactId>
+            <version>1.6.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

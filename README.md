@@ -9,6 +9,7 @@
 
 - Easy command creation with [`Annotation Command Framework (ACF)`](https://github.com/aikar/commands/wiki) 
 - Commands with asynchronous tabcomplete
+- MarkDown inspired markup to write Minecraft chat components! [`MineDown`](https://github.com/Phoenix616/MineDown) 
 - Creating stylish guide menus with [`Inventory Framework`](https://github.com/stefvanschie/IF/wiki/IF)
 
 ## Setup
